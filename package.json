@@ -1,0 +1,27 @@
+{
+  "name": "pearson-kotobee-decoder",
+  "version": "1.0.0",
+  "description": "Decode and update Kotobee ePub links.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:chialab/pearson/kotobee-decoder.git"
+  },
+  "bin": {
+    "pearson-kotobee-decoder": "./bin/decoder.js"
+  },
+  "author": "Chialab <dev@chialab.io> (https://www.chialab.it)",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "adm-zip": "^0.4.14",
+    "cheerio": "^1.0.0-rc.3",
+    "colors": "^1.4.0",
+    "commander": "^2.19.0",
+    "diff": "^4.0.2",
+    "lodash": "^4.17.11",
+    "progress": "^2.0.3"
+  }
+}
